@@ -34,7 +34,7 @@ graph TD
 * **Interface:** Placa de extensão com Barra de 8 LEDs (conectada ao header J1)
 * **Programador:** JTAG (via OpenOCD/EcpDap)
 
-## 🔌 Pinagem (Pinout)
+## Pinagem (Pinout)
 
 Os LEDs foram configurados no firmware como um vetor de 8 bits (`leds_ext`). A tabela abaixo relaciona o índice do bit no software com o pino físico no conector **CN2** da placa de extensão:
 
@@ -51,7 +51,7 @@ Os LEDs foram configurados no firmware como um vetor de 8 bits (`leds_ext`). A t
 
 *Atenção: A ordem física no conector não é linear para os últimos bits. Verifique as conexões individualmente.*
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```text
 ├── firmware/               # Código-fonte do Firmware
@@ -66,7 +66,7 @@ Os LEDs foram configurados no firmware como um vetor de 8 bits (`leds_ext`). A t
 └── README.md               # Documentação do Projeto
 ```
 
-## 🚀 Como Compilar e Executar
+## Como Compilar e Executar
 
 ### Pré-requisitos
 * LiteX e Migen instalados
