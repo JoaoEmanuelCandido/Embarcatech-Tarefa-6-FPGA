@@ -96,7 +96,7 @@ Isso gerará o arquivo `main.bin`. A biblioteca `libtflm.a` já foi compilada e 
 *OBS: a biblioteca deve ser compilada antes do firmware, mas como já foi compilada, não há necessidade de realizar a compilação novamente.*
 
 ### 3. Carregamento
-Para carregar o bitstream e o firmware via JTAG (exemplo usando OpenOCD):
+Para carregar o bitstream e o firmware via JTAG:
 
 ```bash
 cd ../litex
